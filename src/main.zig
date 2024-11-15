@@ -60,7 +60,7 @@ pub fn panic_handler(msg: []const u8, error_return_trace: ?*std.builtin.StackTra
         gty.deinit();
     }
 
-    std.builtin.default_panic(msg, error_return_trace, ret_addr);
+    std.debug.defaultPanic(msg, error_return_trace, ret_addr);
 }
 
 pub const log_scopes = enum {
