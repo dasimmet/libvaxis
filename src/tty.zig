@@ -97,7 +97,7 @@ pub const PosixTty = struct {
             },
             .flags = 0,
         };
-        posix.sigaction(posix.SIG.WINCH, &act, null) catch {};
+        posix.sigaction(posix.SIG.WINCH, &act, null);
     }
 
     /// Write bytes to the tty
