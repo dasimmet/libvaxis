@@ -4,8 +4,8 @@
     .minimum_zig_version = "0.13.0",
     .dependencies = .{
         .zigimg = .{
-            .url = "https://github.com/zigimg/zigimg/archive/5b5d718159c6ec223a54c9bb960690576e5df9c2.tar.gz",
-            .hash = "122040d9cc905342547e1e9da227a7f16fae5e7ae23134cb62aaef64c5b2c4f58828",
+            .url = "git+https://github.com/zigimg/zigimg#1496bdd39bc35a795e8514c493114e2ab82f8cf3",
+            .hash = "1220a5e36ab5e2be076f8765d165f3368a4c9f326dc77ac61c1e90bbce312fc37a39",
         },
         .zg = .{
             .url = "https://codeberg.org/atman/zg/archive/v0.13.2.tar.gz",
